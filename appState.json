@@ -24,7 +24,7 @@
         "filePath": "lambdaconfigerror/lambda.js",
         "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
         "config": {
-          "runtime": "nodejs8.10",
+          "runtime": "nodejs10.x",
           "handler": "handler",
           "timeout": 60,
           "memory": 128,
@@ -65,14 +65,19 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1564654629939
+    "lastSave": 1564654844461
   },
   "VCS_STATE": {
     "provider": "GitHub",
     "repo": {
       "name": "lambdaconfigerror",
       "url": "https://github.com/Kumudikatest/lambdaconfigerror",
-      "branches": []
+      "branches": [
+        {
+          "name": "master",
+          "hash": "a7bb46c6a952c3cf1d7d8958a2b62e370e9793a0"
+        }
+      ]
     }
   }
 }
