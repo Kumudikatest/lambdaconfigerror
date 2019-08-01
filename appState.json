@@ -1,0 +1,78 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "9f030fab-9c5a-4b1e-b6d9-a468e1b5ca15": {
+        "id": "9f030fab-9c5a-4b1e-b6d9-a468e1b5ca15",
+        "parent": null,
+        "name": "lambdaconfigerror",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "e30ea44a-a590-4e82-a855-0b1c4ef5b887"
+        ],
+        "isRemovable": false,
+        "filePath": "lambdaconfigerror"
+      },
+      "e30ea44a-a590-4e82-a855-0b1c4ef5b887": {
+        "id": "e30ea44a-a590-4e82-a855-0b1c4ef5b887",
+        "parent": "9f030fab-9c5a-4b1e-b6d9-a468e1b5ca15",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "lambdaconfigerror/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "9f030fab-9c5a-4b1e-b6d9-a468e1b5ca15",
+    "openFiles": [
+      "e30ea44a-a590-4e82-a855-0b1c4ef5b887"
+    ],
+    "currentFileId": "e30ea44a-a590-4e82-a855-0b1c4ef5b887",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "lambdaconfigerror",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1564654629939
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "lambdaconfigerror",
+      "url": "https://github.com/Kumudikatest/lambdaconfigerror",
+      "branches": []
+    }
+  }
+}
